@@ -4,7 +4,7 @@ class User {
 	//privaatne muutuja, siis saab kasutada ainult klassi sees
 	private $connection;
 	
-	//funktsioon, mis käivitub siis, kui on ! NEW User();
+	//funktsioon, mis k'ivitub siis, kui on ! NEW User();
 	function __construct($mysqli){
 		
 		//selle klassi muutuja
